@@ -67,4 +67,34 @@ h6 {
   color: #333;
   margin: 20px;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.table-wrapper table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
 }
