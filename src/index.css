@@ -98,3 +98,35 @@ hr {
   border-top: 1px solid #ddd;
   margin-bottom: 10px;
 }
+
+.top-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-bar label,
+.controls label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.top-bar input,
+.controls input {
+  padding: 5px;
+  font-size: 1.2rem;
+  margin-right: 6px;
+}
+
+.controls {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
